@@ -14,7 +14,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         if (freq[arr[i]] > 0) {
             printf("%d:%d ", arr[i], freq[arr[i]]);
-            freq[arr[i]] = 0; // Mark as printed
+            freq[arr[i]] = 0; 
         }
     }
     printf("\n");
